@@ -41,4 +41,4 @@ You should get a response similar to below:
 
 ![](https://snipboard.io/ThWcn6.jpg)
 
-> It is recommended that you use the new session ID with every action such as AddCartLine, DeleteCartLine etc. 
+> **It is recommended that you use the new session ID with every action such as AddCartLine, DeleteCartLine etc.**

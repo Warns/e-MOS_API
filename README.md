@@ -20,14 +20,15 @@ bearer IAkHlz6l47seOCZVOFzTqZN0Is4JVsQHEE...
 
 ```sh
 {
-  "productId": "575094",
+  "productId": "575118",
   "quantity": 1,
 }
 ```
 
-After you add a product you will get a new **session** ID you need to use that after this point instead of the old session ID.
+After you add a product you will get a new **session** ID in *Response Headers* you need to use that after this point instead of the old session ID.
 
 ## 3. getCart
+With the new session ID that you got after addCartLine and the old token you can now getCart
 
 ```sh
 {
@@ -35,3 +36,9 @@ After you add a product you will get a new **session** ID you need to use that a
 }
 ```
 ![](https://snipboard.io/YhTsK0.jpg)
+
+You should get a response similar to below:
+
+![](https://snipboard.io/ThWcn6.jpg)
+
+> It is recommended that you use the new session ID with every action such as AddCartLine, DeleteCartLine etc. 

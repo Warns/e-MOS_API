@@ -4,7 +4,7 @@
 
 ```sh
 {
-  "password": "72d6a5b5-dc4a-ceb5-fe19-f695f1258ca8",
+  "password": "72d6a5b5-dc4a-ceb5-fe19-f6....",
   "grant_type": "password"
 }
 ```
